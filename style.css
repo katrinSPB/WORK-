@@ -1,0 +1,239 @@
+
+*{  font-family: 'Roboto', 'Oswald', Arial, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(246, 244, 248); /* Цвет текста */
+    
+
+ }
+
+body{
+    background: #09080a  url(img/car-3075497_1281.png);/* Цвет фона и путь к файлу */
+    background-repeat: no-repeat;
+    background-size: cover      
+}
+
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-basis: 10%;
+    position: relative;
+}
+
+/*Сиреневая штучка с соцсетями*/
+.social-block {
+    position: absolute;
+    background-color: #a276ff;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    right: 0;
+    top: 1px;
+}
+   
+.social-block:hover{
+    background-color:  rgba(242, 201, 76, 1); 
+}
+
+
+
+.aside-block{
+    box-sizing: border-box;
+    width: 350px;
+    background: rgba(11,11,13,0.4);
+    text-align: center;
+    padding: 70px 50px 100px 50px;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Roboto' 'Oswald';
+    letter-spacing: 5px;
+}
+
+.active ol{/* с  маркером*/
+    color: rgba(162, 118, 255,1);/*цвет дс*/
+    font-size: 17px;
+    background: url(./img/Marker.png)no-repeat; 
+    margin-top: 40px;
+ }
+
+.active ol:hover{
+color:  rgba(242, 201, 76, 1); 
+background: url(./img/Marker2.png)no-repeat
+ }
+
+/*авторский знак*/
+p{  margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: rgba(162, 118, 255,1);
+    }
+
+.active {
+
+    font-size: 17px;/*объем дс*/
+    color: rgba(162, 118, 255,1);}/*цвет дс*/
+
+    /*меню снизу*/
+.admin{
+
+    margin-top: 250px;
+    margin-bottom : 0px;
+
+    color:  rgba(242, 201, 76, 1);
+    font-size: 17px;
+}
+
+
+.active:hover li{
+        color:  rgba(242, 201, 76, 1); }   
+        
+.aside-block ul{
+        list-style-type: none;}      
+
+.aside-block li{
+        padding-top: 40px;}
+
+
+.menu__logo:hover { 
+    content: url(./img/LOGOyello.svg); }
+
+
+
+.main {
+            
+    margin-top: 150px;
+    width: 1090px;
+    position: relative;}
+
+           
+
+.main h1 span:first-child{  
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: rgb(255, 225, 235);
+    font-family: 'Oswald', 'impact', 'Roboto';
+    font-size: 56px;
+    line-height: 60pt;
+ 
+}
+    
+.main h1 span:last-child{
+    text-align: left;
+    color: rgba(162, 118, 255,1);
+    font-family: 'Oswald', 'Roboto','impact' ;
+    font-size: 120px;
+    margin-top: -50px;
+    line-height: 60pt;
+    }
+
+.main h1 span:last-child:hover{
+color: rgba(242, 201, 76, 1);
+
+    }
+
+.main p {
+    font-size: 29px;
+    color: #f8f2f2;
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Oswald';
+}
+
+
+
+.portfolio-container a{
+color: rgb(247, 246, 244); } /*цвет текста кнопки*/
+
+.portfolio-container a:hover{
+    color:  rgba(242, 201, 76, 1); } 
+
+    /*кнопка*/
+
+    button {
+    background:  transparent;
+     height:  70px;
+     line-height:  40px;
+     border:  2px solid white;
+     border-radius: 10px;
+     display:  inline-block;
+     float:  none;
+     text-align:  center;
+     width:  286px;
+     padding:  0px!important;
+     font-size:  14px;
+     color:  #fff;}
+    
+    button:hover {
+        color: #000;
+        border:  2px solid 
+        rgba(242, 201, 76, 1);
+    }
+
+.gallery__flex {
+position: left;
+  width: 1090px;
+  display: flex;
+  margin-top: 60px;
+  margin: bottom 40px;
+}
+
+.gallery__item {
+
+
+    padding: 20px;
+    
+}
+
+.gallery__item{/*картинки галереи*/
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;}
+
+.gallery__item:hover{
+    stroke: #a276ff;
+    -webkit-transform: rotate(15deg); /* Градусы поворота  */
+    transform: rotate(15deg)
+}
+
+.text-button{
+
+    font-size:  42px;
+}
+
+
+.text-button li{
+margin-top: 40px;
+margin: bottom 40px;
+font-size:  42px;
+color:  #fff;
+content: url(./img/triangle.svg);
+padding-left: 5px;
+list-style-position: initial;
+display: inline-block;
+}
+
+.text-button:hover{
+color:  rgba(242, 201, 76, 1);
+
+
+}
+
+.text-button li:hover{
+   content: url(./img/yello\ marc.png);
+
+}
+
+
+.main p1{
+    font-size: 20px;
+    font-family: 'Roboto', 'Oswald', Arial, sans-serif;
+   margin-top:  40px;
+}
+
+

@@ -1,0 +1,229 @@
+
+*{  font-family: 'Roboto', 'Oswald', Arial, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(246, 244, 248); /* Цвет текста */
+    }
+
+body{
+    background: #09080a  url(img/car-3075497_1281.png);/* Цвет фона и путь к файлу */
+    background-repeat: no-repeat;
+    background-size: cover      
+}
+
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-basis: 10%;
+    position: relative;
+}
+
+/*Сиреневая штучка с соцсетями*/
+.social-block {
+    position: absolute;
+    background-color: #a276ff;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    right: 0;
+    top: 1px;
+}
+
+
+.aside-block{
+    box-sizing: border-box;
+    width: 350px;
+    background: rgba(11,11,13,0.4);
+    text-align: center;
+    padding: 70px 50px 100px 50px;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Roboto' 'Oswald';
+    letter-spacing: 5px;
+}
+
+.active ol{/*с маркером*/
+    color: rgba(162, 118, 255,1);/*цвет дс*/
+    font-size: 17px;
+    background: url(./img/Marker.png)no-repeat; 
+    margin-top: 40px;
+ }
+
+    .active ol:hover{
+        color:  rgba(242, 201, 76, 1);}
+
+        /*авторский знак*/
+p{  margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: rgba(162, 118, 255,1);
+    }
+    
+.active {
+
+    font-size: 17px;/*объем дс*/
+    color: rgba(162, 118, 255,1);}/*цвет дс*/
+
+    /*меню снизу*/
+.admin{
+
+    margin-top: 250px;
+    margin-bottom : 0px;
+
+    color:  rgba(242, 201, 76, 1);
+    font-size: 17px;
+}
+
+
+.active:hover li{
+        color:  rgba(242, 201, 76, 1);}
+        
+.aside-block ul{
+        list-style-type: none;}      
+
+.aside-block li {
+        padding-top: 40px;}
+
+.main{
+            width: 1090px;
+            position: relative;}
+
+
+
+
+.portfolio-container{
+    position: relative;
+    right: 20px;
+}
+
+.portfolio-container a{
+color: rgb(247, 246, 244); } 
+
+.portfolio-container a:hover{
+    color:  rgba(242, 201, 76, 1);} 
+
+    /*кнопка*/
+
+    button {
+    background:  transparent;
+     height:  70px;
+     line-height:  40px;
+     border:  2px solid white;
+     border-radius: 10px;
+     display:  inline-block;
+     float:  none;
+     text-align:  center;
+     width:  286px;
+     padding:  0px!important;
+     font-size:  14px;
+     color:  #fff;}
+    
+    button:hover {
+        color: #000;
+        border:  2px solid  rgba(242, 201, 76, 1);
+    }
+
+.flex {
+position: left;
+  width: 1090px;
+  height: 1252px;
+  display: flex;
+  margin-top: 188px;
+  margin: bottom 40px;
+  min-height: 496px;
+  border:  2px solid white;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.gallery__item {
+    padding: 20px;
+    
+}
+
+
+.text-button{
+margin-top: 40px;
+margin: bottom 40px;
+font-size:  42px;
+color:  #fff;}
+
+.p1{
+    font-size:  20px;
+    font-family: 'Roboto', 'Oswald', Arial, sans-serif;
+}
+
+.flex__box{
+    width: 900px;
+  height: 1052px;
+  margin-top: 120px;
+  margin-left: 120px;
+}
+
+.flex__box p{
+    text-align: left;
+    color:  #1a1818;
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight: 800;
+}
+
+.flex__box p2{
+    text-align: left;
+    color:  #1a1818;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.flex__box h1{
+    font-size: 56px;
+    text-align: left;
+    color:  #1a1818;
+}
+
+.flex__box h2{
+    margin-right: 50px;
+    margin-left: 50px;
+    color:  #1a1818;
+    text-align: left;
+    font-size: 30px;
+ 
+}
+
+
+.flex__box h3{
+    margin-right: 50px;
+    margin-left: 50px;
+    color:  #1a1818;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+
+.flex__box2{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 150;
+}
+
+.flex__box button{
+    
+        
+         height:  9px;
+         line-height:  10px;
+         border:  2px solid  rgba(162, 118, 255,1);
+         border-radius: 10px;
+         display:  inline-block;
+         float:  none;
+         width:  80px;
+         padding:  0px!important;
+         font-size:  14px;
+        background-color:  rgba(162, 118, 255,1);
+}
